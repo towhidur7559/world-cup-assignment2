@@ -13,7 +13,8 @@
     width: 581px;
 }
 
-.banner-part {
+.banner-part,
+.second-section {
     display: flex;
     background-color: #161616;
     Height: 646px;
@@ -51,7 +52,8 @@
     padding-bottom: 30px;
 }
 
-.btn {
+.btn,
+.card-btn {
     border: none;
     background-color: #DD0000;
     padding: 16px 25px;
@@ -60,4 +62,111 @@
     line-height: 24px;
     color: white;
     border-radius: 5px;
+}
+
+/* Second Section  */
+.second-section {
+    background: none;
+}
+
+.section-menu {
+    display: flex;
+}
+
+.card-img {
+    width: 290px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cards {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+.card {
+    width: 290px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-info {
+    padding-left: 15px;
+    padding-right: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.card-btn {
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.time-massage {
+    display: flex;
+    justify-content: space-around;
+}
+
+.few-btn {
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    height: 300px;
+    width: 250px;
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.btn-1,
+.btn-2,
+.btn-3 {
+    border: none;
+    width: 200px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+}
+
+.btn-3 {
+    background-color: #DD0000;
+    color: white;
+}
+
+/* footer */
+.footer {
+    background-color: #161616;
+}
+
+.footer h1 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left:70px;
+    width: 1200px;
+}
+.contact-footer{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 55px;
 }
