@@ -154,6 +154,18 @@ body{
     color: white;
 }
 
+/* index-2 */
+.double-img{
+    display: flex;
+    flex-direction: row;
+}
+/* View button  */
+ .view{
+    margin-left: 1300px;
+    margin-bottom: 60px;
+    display: none;
+ }
+
 /* footer */
 .footer {
     background-color: #161616;
