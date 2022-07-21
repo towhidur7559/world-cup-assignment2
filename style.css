@@ -208,7 +208,7 @@ hr{
     .img {
         height: 350px;
         width: 320px;
-    }
+    }    
     
     .banner-part,
     .second-section {
@@ -269,41 +269,38 @@ hr{
     /* Second Section  */
     .second-section {
         background: none;
-        margin-bottom: 550px;
+        margin-bottom: 50px;
+        position:static;
     }
     
     .section-menu {
         display: flex;
+        flex-direction: column;
     }
     
     .card-img {
-        width: 590px;
-        height: 400px;
+        width: 350px;
+        height: 220px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
     
     .cards {
-        margin-left: 100px;
+        margin-left: 10px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-column-gap: 90px;
+        margin-bottom: 250px;
     }
     
     .card {
-        width: 591px;
+        width: 351px;
         border: 1px solid #E8E8E8;
         border-radius: 10px;
-        margin-bottom: 50px;
     }
     
     .card-info {
-        padding-left: 15px;
-        padding-right: 5px;
-        padding-bottom: 30px;
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 20px;
     }
     .card-info p{
         padding: 10px 10px;
@@ -321,13 +318,13 @@ hr{
     }
     
     .few-btn {
+        background: none;
         display: flex;
         flex-direction: column;
-        background-color: #161616;
-        height: 480px;
-        width: 500px;
-        padding-top: 100px;
-        padding-left: 45px;
+        height: 380px;
+        width: 370px;
+        padding-top: 50px;
+        padding-left: 30px;
         padding-right: 20px;
         border-radius: 10px;
     }
@@ -336,64 +333,48 @@ hr{
     .btn-2,
     .btn-3 {
         border: none;
-        width: 400px;
+        width: 300px;
         height: 74px;
         font-weight: 500;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 30px;
         border-radius: 10px;
         margin-bottom: 20px;
         background-color: #FFFFFF;
+        border: 1px solid #E8E8E8;
     }
     
     .btn-3 {
         background-color: #DD0000;
         color: white;
-    }
+    }   
     
-    /* index-2 */
-    .double-img{
-        display: flex;
-        flex-direction: row;
-    }
-    /* View button  */
-     .view{
-        margin-left: 1300px;
-        margin-bottom: 60px;
-        display: none;
-     }
+     
     
     /* footer */
+    
     .footer {
         background-color: #161616;
-        height: 350px;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        margin-bottom: 0px;
+        height: 250px;
+        position: fixed;
     }
     
     .footer h1 {
-        text-align: center;
-        color: white;
-        font-weight: 600;
-        font-size: 80px;
+        font-size: 30px;
         line-height: 60px;
-        padding-top: 70px;
-        padding-bottom: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     hr{
         border: 1px solid rgba(255, 255, 255, 0.1);
-        margin-left:370px;
-        width: 1900px;
+        margin-left:70px;
+        width: 1000px;
     }
     .contact-footer{
         color: white;
         display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        padding-top: 50px;
-        padding-bottom: 65px;
-        font-size:28px;
+        flex-direction: column;
+        font-size:20px;
+        padding-left: 150px;
     }
 }
